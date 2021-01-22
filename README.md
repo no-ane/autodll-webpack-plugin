@@ -4,15 +4,12 @@
 [![Join the chat at https://gitter.im/autodll-webpack-plugin/Lobby](https://badges.gitter.im/autodll-webpack-plugin/Lobby.svg)](https://gitter.im/autodll-webpack-plugin/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
+
 # Important Note
 
+<b>After fork, I mainly upgraded html-webpack-plugin. When using html-webpack-plugin, please note that the version is "4.0.0-alpha.2"</b>
 
-Now, that webpack 5 planning to [support caching out-of-the-box](https://github.com/webpack/webpack/issues/6527),
-AutoDllPlugin will soon be obsolete.
-
-In the meantime, I would like to recommend Michael Goddard's [hard-source-webpack-plugin](https://github.com/mzgoddard/hard-source-webpack-plugin), <br>
-which seems like webpack 5 is going to use internally.
-
+<b>Fork 后，主要给 html-webpack-plugin  做了升级，使用 html-webpack-plugin 的时候，需要注意版本为 "4.0.0-alpha.2"</b>
 
 <hr>
 
