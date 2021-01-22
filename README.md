@@ -7,9 +7,9 @@
 
 # Important Note
 
-<b>After fork, I mainly upgraded html-webpack-plugin. When using html-webpack-plugin, please note that the version is "4.0.0-alpha.2"</b>
+After fork, I mainly upgraded `html-webpack-plugin`. When using `html-webpack-plugin`, please note that the version is "4.0.0-alpha.2"
 
-<b>Fork 后，主要给 html-webpack-plugin  做了升级，使用 html-webpack-plugin 的时候，需要注意版本为 "4.0.0-alpha.2"</b>
+Fork 后，主要给 `html-webpack-plugin`  做了升级，使用 `html-webpack-plugin` 的时候，需要注意版本为 "4.0.0-alpha.2"
 
 <hr>
 
@@ -19,12 +19,7 @@ Webpack's DllPlugin without the boilerplate
 
 webpack 4
 ```
-  npm install --save-dev autodll-webpack-plugin
-```
-
-webpack 2 / 3
-```
-  npm install --save-dev autodll-webpack-plugin@0.3
+  npm install --save-dev autodll-webpack-plugin-plus-v4
 ```
 
 
@@ -117,7 +112,7 @@ Will Result in:
 
 ```js
 const path = require('path');
-const AutoDllPlugin = require('autodll-webpack-plugin');
+const AutoDllPlugin = require('autodll-webpack-plugin-plus-v4');
 
 module.exports = {
   entry: {
@@ -152,7 +147,7 @@ Use AutoDllPlugin's `inject` option to enable this feature.
 
 ```js
 const path = require('path');
-const AutoDllPlugin = require('autodll-webpack-plugin');
+const AutoDllPlugin = require('autodll-webpack-plugin-plus-v4');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -469,7 +464,7 @@ If you still encounter an issue with the context set up correctly, please open a
 
 ## Running Examples
 
-1. `git clone git@github.com:asfktz/autodll-webpack-plugin.git`
+1. `git clone git@github.com:no-ane/autodll-webpack-plugin.git`
 2. `cd autodll-webpack-plugin`
 3. `npm install`
 4. `npm run build`
