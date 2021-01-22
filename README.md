@@ -7,9 +7,9 @@
 
 # Important Note
 
-After fork, I mainly upgraded `html-webpack-plugin`. When using `html-webpack-plugin`, please note that the version is "4.0.0-alpha.2"
+After fork, I mainly upgraded `html-webpack-plugin`. When using `html-webpack-plugin`, please note that the version is <b>"4.0.0-alpha.2"</b>
 
-Fork 后，主要给 `html-webpack-plugin`  做了升级，使用 `html-webpack-plugin` 的时候，需要注意版本为 "4.0.0-alpha.2"
+Fork 后，主要给 `html-webpack-plugin`  做了升级，使用 `html-webpack-plugin` 的时候，需要注意版本为 <b>"4.0.0-alpha.2"</b>
 
 <hr>
 
