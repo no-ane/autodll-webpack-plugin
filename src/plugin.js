@@ -1,4 +1,5 @@
 import webpack, { DllReferencePlugin } from 'webpack';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 import flatMap from 'lodash/flatMap';
 import isEmpty from 'lodash/isEmpty';
 import once from 'lodash/once';
@@ -136,11 +137,11 @@ class AutoDLLPlugin {
       };
 
       compiler.hooks.compilation.tap('AutoDllPlugin', compilation => {
-        if (!compilation.hooks.htmlWebpackPluginBeforeHtmlGeneration) {
+        if (!HtmlWebpackPlugin.getHooks(compilation).beforeAssetTagGeneration) {
           return;
         }
 
-        compilation.hooks.htmlWebpackPluginBeforeHtmlGeneration.tapAsync(
+        HtmlWebpackPlugin.getHooks(compilation).beforeAssetTagGeneration.tapAsync(
           'AutoDllPlugin',
           doCompilation
         );
